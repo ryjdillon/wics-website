@@ -1,8 +1,26 @@
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//import Home from './pages';
+import Exec from './pages/exec';
+import Resources from './pages/resources';
+import Contact from './pages/contact';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+  <Router>
+    <Navbar />
+    <Routes>
+      {/* <Route path='/' exact component={Home} /> */}
+      <Route path='/exec' component={Exec} />
+      <Route path='/resources' component={Resources} />
+      <Route path='/contact' component={Contact} />
+    </Routes>
+  </Router>
+
+  <div className="App">
       <header className="App-header">
       </header>
       <div className="title">
@@ -18,6 +36,7 @@ function App() {
         </p>
       </div>
     </div>
+  </div>
   );
 }
 
