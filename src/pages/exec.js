@@ -2,15 +2,8 @@ import React from 'react';
 
 const Exec = () => {
 return (
-	<div
-	style={{
-		display: 'flex',
-		justifyContent: 'Right',
-		alignItems: 'Right',
-		height: '100vh'
-	}}
-	>
-	<h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
+	<div>
+	<h1>Meet WiCS's 2023 executive board!</h1>
 	</div>
 );
 };

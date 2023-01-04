@@ -31,7 +31,7 @@
   align-items: center;
   font-size: 2.5em;
   color: white;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 p {
@@ -44,6 +44,12 @@ p {
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+h1 {
+  background-color: #DBBEA1;
+  color: #3F292B;
+  font-size: 1.5em;
 }
 
 

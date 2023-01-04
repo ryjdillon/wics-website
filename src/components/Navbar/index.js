@@ -13,6 +13,9 @@ return (
 		<Bars />
 
 		<NavMenu>
+		<NavLink to='/' activeStyle>
+			Home
+		</NavLink>
 		<NavLink to='/exec' activeStyle>
 			Meet Exec
 		</NavLink>
